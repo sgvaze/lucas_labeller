@@ -60,7 +60,10 @@
         >keyboard_arrow_right</i
       >
     </div>
-    <div id="asset">loading...</div>
+    <div class="flex-row content">
+      <div>1</div>
+      <div id="asset">loading...</div>
+    </div>
   </div>
 </div>
 
@@ -145,7 +148,7 @@
   `;
   }
   function createTextInput({ id, label }, answer) {
-    return `
+    const whatever = `
     <div class="question" id="${id}" questiontype="text">
       <div class="input-field col s12">
         <div class="label">${label}</div>
@@ -154,6 +157,8 @@
       </div>
     </div>
   `;
+    console.log(whatever);
+    return whatever;
   }
   function createQuestion(question, answers) {
     const optionalAnswer = (answers || {})[question.name];

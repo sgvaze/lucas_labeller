@@ -4,6 +4,11 @@
 .flex-column{
   flex-direction: column;
 }
+
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-grow{
   display: flex;
   flex-grow: 1;
