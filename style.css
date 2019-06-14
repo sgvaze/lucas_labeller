@@ -21,6 +21,11 @@
   max-width: 70vw;
 }
 
+.asset_main{
+  max-height: 50vh;
+  max-width: 35vw;
+}
+
 .content{
   margin: 0px 20px;
 }
