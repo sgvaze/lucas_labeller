@@ -19,18 +19,19 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   /* display: flex; align-items: center; padding: 10px 0px */
 }
 
 .left_column {
   /* display: flex; align-items: center; padding: 10px 0px; flex-grow: 1 */
+  display: flex;
   flex-grow: 1;
   flex-direction: row;
 }
 
 .right_column {
   /* style="display: flex; align-items: center; padding: 10px 0px; flex-grow: 1" */
+  display: flex;
   flex-grow: 1;
 }
 
