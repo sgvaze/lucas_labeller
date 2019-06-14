@@ -19,6 +19,7 @@
 .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   /* display: flex; align-items: center; padding: 10px 0px */
 }
 
@@ -27,12 +28,14 @@
   display: flex;
   flex-grow: 1;
   flex-direction: row;
+  align-items: center;
 }
 
 .right_column {
   /* style="display: flex; align-items: center; padding: 10px 0px; flex-grow: 1" */
   display: flex;
   flex-grow: 1;
+  align-items: center;
 }
 
 .asset {
