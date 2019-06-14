@@ -61,16 +61,18 @@
       >
     </div>
   </div>
-  <div style="display: flex; align-items: center; padding: 10px 0px">
-    <div style="display: flex; align-items: center; padding: 10px 0px; flex-grow: 1">
+
+  <div class="container">
+    <div class="left_column">
       <div><img class="asset" src="https://images.riverisland.com/is/image/RiverIsland/312067_main?$CrossSellProductPage300$">Front</div>
       <div><img class="asset" src="https://images.riverisland.com/is/image/RiverIsland/314935_main?$CrossSellProductPage300$">45 Degrees</div>
       <div><img class="asset" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJr2_g5k_-FDx4ylzLJN3H_5DUdyyMkWlciyWQzoF6NZmVcvN6">Back</div>
     </div>
-    <div style="display: flex; align-items: center; padding: 10px 0px; flex-grow: 1">
+    <div class="right_column">
       <div id="asset">loading...</div>
     </div>
   </div>
+
 </div>
 
 <script>
@@ -284,7 +286,7 @@
       info.indexOf(".jpeg") !== -1
     ) {
       return `
-      <img class="asset_main" src="${data}"></img>
+      <img class="asset_main" src="${data}" />
     `;
     }
     return `
