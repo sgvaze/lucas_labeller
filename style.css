@@ -29,11 +29,6 @@
   align-items: center;
 }
 
-.tab{
-  position: absolute;
-  margin-left: 100px;
-}
-
 .right_column {
   /* style="display: flex; align-items: center; padding: 10px 0px; flex-grow: 1" */
   display: flex;
