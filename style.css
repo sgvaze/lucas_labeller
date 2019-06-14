@@ -6,7 +6,7 @@
 }
 
 .flex-row{
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .flex-grow{
